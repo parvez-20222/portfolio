@@ -4,10 +4,17 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
- 
+ .pa{
+  color: #200fde;
+ }
  .style{
  font-size:34px ; text-transform: capitalize
  }
+
+
+ /* footer li{
+  color: red;
+ } */
 
 :root {
   --blue: #007bff;

@@ -11,15 +11,15 @@ export default function Home() {
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="10000">
             <img
-              src="assets/images/pg10.jpeg"
+              src="assets/images/pa1.jpg"
               height="600px"
               className="d-block w-100"
               alt="..."
             />
             <div className="carousel-caption d-none d-md-block">
               <div className="text">
-                <span className="subheading">Hello! This is Clyde</span>
-                <h1 className="mb-4 mt-3">
+                <span className="subheading" style={{color:"blue"}}><h2>Hello I am Parvez Alam</h2></span>
+                <h1 className="mb-4 mt-3 pa">
                   Creative <span>UI/UX</span> Designer &amp; Developer
                 </h1>
                 <p>
@@ -94,15 +94,14 @@ export default function Home() {
 
       <section
         className="ftco-about ftco-section ftco-no-pt ftco-no-pb"
-        id="about-section"
-      >
+        id="about-section">
         <div className="container">
           <div className="row d-flex no-gutters">
             <div className="col-md-6 col-lg-5 d-flex">
               <div className="img-about img d-flex align-items-stretch">
                 <div className="overlay"></div>
                 <div
-                  className="img d-flex align-self-stretch align-items-center"
+                  className=" w-100 img d-flex align-self-stretch align-items-center"
                   style={{ backgroundImage: "url('assets/images/pg10.jpeg')" }}
                 ></div>
               </div>
@@ -177,11 +176,11 @@ export default function Home() {
 
       <section className="ftco-section bg-light" id="blog-section">
         <div className="container">
-          <div className="row justify-content-center mb-5 pb-5">
+          <div className="row justify-content-center mb-1 pb-1">
             <div className="col-md-7 heading-section text-center ftco-animate">
               <span className="subheading">Degree</span>
               <h2 className="mb-4">MY Schooling</h2>
-              <p>"my school and college degree,paesentage and degree".</p>
+             
             </div>
           </div>
           <div className="row d-flex">
@@ -196,18 +195,10 @@ export default function Home() {
                 ></a>
                 <div className="text mt-3 float-right d-block">
                   <div className="d-flex align-items-center mb-3 meta">
-                    <p className="mb-0">
-                      <span className="mr-2">Guru Nanak inter college</span>
-                      <a href="/" className="mr-2">
-                        (up Board)
-                      </a>
-                      <a href="/" className="meta-chat">
-                        <span className="icon-chat"></span> 9th to 12th
-                      </a>
-                    </p>
+                   <h3 className="style">Guru Nanak Inter college Baheri</h3>
                   </div>
-                  <h3 className="heading">
-                    <a href="single.html">SCHOOL</a>
+                  <h3 className="heading text-secondary">
+                    UP Board
                   </h3>
                   <table class="table">
                     <thead>
@@ -247,18 +238,10 @@ export default function Home() {
                 ></a>
                 <div className="text mt-3 float-right d-block">
                   <div className="d-flex align-items-center mb-3 meta">
-                    <p className="mb-0">
-                      <span className="mr-2">A.N.A COLLEGE Bareilly</span>
-                      <a href="/" className="mr-2">
-                        (A.K.T.U LUCKNOW)
-                      </a>
-                      <a href="/" className="meta-chat">
-                        <span className="icon-chat"></span> B.TECH
-                      </a>
-                    </p>
+                  <h3 className="style">A.N.A College Bareilly</h3>
                   </div>
-                  <h3 className="heading">
-                    <a href="single.html">GRADUATION</a>
+                  <h3 className="heading style">
+                  Dr. A.P.J. Abdul Kalam Technical University
                   </h3>
                   <table class="table">
                     <thead>
@@ -272,9 +255,9 @@ export default function Home() {
                     <tbody>
                       <tr>
                         <th scope="row">1</th>
-                        <td>10th</td>
-                        <td>2016</td>
-                        <td>79%</td>
+                        <td>B.tech</td>
+                        <td>2022</td>
+                        <td>73%</td>
                       </tr>
                     </tbody>
                   </table>
@@ -287,23 +270,15 @@ export default function Home() {
                   href="single.html"
                   className="block-20"
                   style={{
-                    backgroundImage: "url('assets/images/ducat-img.jpg')",
+                    backgroundImage: "url('assets/images/du2.jpg')",
                   }}
                 ></a>
                 <div className="text mt-3 float-right d-block">
                   <div className="d-flex align-items-center mb-3 meta">
-                    <p className="mb-0">
-                      <span className="mr-2">FULL STACK</span>
-                      <a href="/" className="mr-2">
-                        (Web Development)
-                      </a>
-                      <a href="/" className="meta-chat">
-                        <span className="icon-chat"></span> Startup 2022
-                      </a>
-                    </p>
+                   <h3 className="style">Full stack Web Development</h3>
                   </div>
-                  <h3 className="heading">
-                    <a href="single.html">DUCAT TRAINING CENTER</a>
+                  <h3 className="heading style">
+                  DUCAT TRAINING CENTER
                   </h3>
                   <table class="table">
                     <thead>
@@ -332,10 +307,10 @@ export default function Home() {
 
       <section className="ftco-section bg-light" id="skills-section">
         <div className="container">
-          <div className="row justify-content-center pb-5">
+          <div className="row justify-content-center pb-2">
             <div className="col-md-12 heading-section text-center ftco-animate">
-              <span className="subheading">Skills</span>
-              <h2 className="mb-4">My Skills</h2>
+              <span className="subheading"></span>
+              <h2 className="mb-1 style" >My Skills</h2>
               <p>I am Mern stack Developer.</p>
             </div>
           </div>
@@ -344,7 +319,7 @@ export default function Home() {
               <div className="bg-white rounded-lg shadow p-4">
                 <h2 className="h5 font-weight-bold text-center mb-4">CSS</h2>
 
-                <div className="progress mx-auto" data-value="95">
+                <div className="progress mx-auto" data-value="73">
                   <span className="progress-left">
                     <span className="progress-bar border-primary"></span>
                   </span>
@@ -353,7 +328,7 @@ export default function Home() {
                   </span>
                   <div className="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
                     <div className="h2 font-weight-bold">
-                      95<sup className="small">%</sup>
+                      73<sup className="small">%</sup>
                     </div>
                   </div>
                 </div>
@@ -375,7 +350,7 @@ export default function Home() {
               <div className="bg-white rounded-lg shadow p-4">
                 <h2 className="h5 font-weight-bold text-center mb-4">HTML</h2>
 
-                <div className="progress mx-auto" data-value="98">
+                <div className="progress mx-auto" data-value="72">
                   <span className="progress-left">
                     <span className="progress-bar border-primary"></span>
                   </span>
@@ -384,7 +359,7 @@ export default function Home() {
                   </span>
                   <div className="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
                     <div className="h2 font-weight-bold">
-                      98<sup className="small">%</sup>
+                      72<sup className="small">%</sup>
                     </div>
                   </div>
                 </div>
@@ -395,7 +370,7 @@ export default function Home() {
                     <span className="small text-gray">Last week</span>
                   </div>
                   <div className="col-6">
-                    <div className="h4 font-weight-bold mb-0">90%</div>
+                    <div className="h4 font-weight-bold mb-0">48%</div>
                     <span className="small text-gray">Last month</span>
                   </div>
                 </div>
@@ -405,10 +380,10 @@ export default function Home() {
             <div className="col-lg-4 mb-4">
               <div className="bg-white rounded-lg shadow p-4">
                 <h2 className="h5 font-weight-bold text-center mb-4">
-                  javaScrip
+                  JavaScript
                 </h2>
 
-                <div className="progress mx-auto" data-value="80">
+                <div className="progress mx-auto" data-value="60">
                   <span className="progress-left">
                     <span className="progress-bar border-primary"></span>
                   </span>
@@ -417,7 +392,7 @@ export default function Home() {
                   </span>
                   <div className="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
                     <div className="h2 font-weight-bold">
-                      80<sup className="small">%</sup>
+                      60<sup className="small">%</sup>
                     </div>
                   </div>
                 </div>
@@ -633,7 +608,7 @@ export default function Home() {
       <section className="ftco-section" id="services-section">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-md-12 heading-section text-center ftco-animate mb-5">
+            <div className="col-md-12 heading-section text-center ftco-animate mb-2">
               <span className="subheading">I am grat at</span>
               <h2 className="mb-4">We do awesome services for our clients</h2>
               <p>
@@ -759,20 +734,16 @@ export default function Home() {
                   <div className="d-flex align-items-center mb-3 meta">
                     <p className="mb-0">
                       <span className="mr-2">nov 10, 2022</span>
-                      <a href="/" className="mr-2">
-                        Admin
-                      </a>
-                      <a href="/" className="meta-chat">
-                        <span className="icon-chat"></span> 10
-                      </a>
+                      
+                      
                     </p>
                   </div>
-                  <h3 className="heading">
-                    <a href="single.html">portfolio project</a>
+                  <h3 className="heading bg-light ">
+                    <a href="https://port-folio-rif43v5oa-parvez-20222.vercel.app/"><h5 className="pa">portfolio project</h5></a>
                   </h3>
                   <p>
                     In portfolio project use Languages
-                    HTML5,CSS,Boothstrap,Reactjs.
+                    HTML5,CSS,Boothstrap,JavaScript,Reactjs.
                   </p>
                 </div>
               </div>
@@ -790,16 +761,11 @@ export default function Home() {
                   <div className="d-flex align-items-center mb-3 meta">
                     <p className="mb-0">
                       <span className="mr-2">Dec 3, 2022</span>
-                      <a href="/" className="mr-2">
-                        Admin
-                      </a>
-                      <a href="/" className="meta-chat">
-                        <span className="icon-chat"></span> 15
-                      </a>
+                      
                     </p>
                   </div>
                   <h3 className="heading">
-                    <a href="single.html">NEWS Daily App</a>
+                    <a href="#"><h5 className="pa">New Daily App</h5></a>
                   </h3>
                   <p>
                     In this project Languages uses
@@ -821,21 +787,16 @@ export default function Home() {
                   <div className="d-flex align-items-center mb-3 meta">
                     <p className="mb-0">
                       <span className="mr-2">Dec 25, 2022</span>
-                      <a href="/" className="mr-2">
-                        Admin
-                      </a>
-                      <a href="/" className="meta-chat">
-                        <span className="icon-chat"></span> 19
-                      </a>
+
                     </p>
                   </div>
                   <h3 className="heading">
-                    <a href="single.html">Ecommerse Website</a>
+                    <a href="#"><h5 className="pa">Ecommerse Website</h5></a>
                   </h3>
                   <p>
                     E-commerce can be defined in a very simple way as using
                     electronic media for conducting commerce.use languages
-                    HTML,CSS,Boothstrap,Javascript,Reactjs and Redux
+                    HTML,CSS,Boothstrap,Material UI,Javascript,Reactjs and Redux
                   </p>
                 </div>
               </div>
@@ -848,121 +809,98 @@ export default function Home() {
         <div className="container-fluid px-md-4">
           <div className="row justify-content-center pb-5">
             <div className="col-md-12 heading-section text-center ftco-animate">
-              <span className="subheading">BLOG</span>
-              <h2 className="mb-4">OUR BLOGS</h2>
+              <span className="subheading"></span>
+              <h2 className="mb-4">OUR Portfolio</h2>
               <p>My favorite Images front of you</p>
             </div>
           </div>
           <div className="row">
             <div className="col-md-3">
               <div
-                className="project img shadow ftco-animate d-flex justify-content-center align-items-center"
+                className=" w-100 project img shadow ftco-animate d-flex justify-content-center align-items-center"
                 style={{ backgroundImage: "url('assets/images/pg1.jpg')" }}
               >
                 <div className="overlay"></div>
                 <div className="text text-center p-4">
-                  <h3>
-                    <a href="/">Branding &amp; Illustration Design</a>
-                  </h3>
-                  <span>Web Design</span>
+                 
+                   
                 </div>
               </div>
             </div>
             <div className="col-md-3">
               <div
-                className="project img shadow ftco-animate d-flex justify-content-center align-items-center"
+                className=" w-100 project img shadow ftco-animate d-flex justify-content-center align-items-center"
                 style={{ backgroundImage: "url('assets/images/pg13.jpg')" }}
               >
                 <div className="overlay"></div>
                 <div className="text text-center p-4">
-                  <h3>
-                    <a href="/">Branding &amp; Illustration Design</a>
-                  </h3>
-                  <span>Web Design</span>
+                 
                 </div>
               </div>
             </div>
             <div className="col-md-3">
               <div
-                className="project img shadow ftco-animate d-flex justify-content-center align-items-center"
+                className=" w-100 project img shadow ftco-animate d-flex justify-content-center align-items-center"
                 style={{ backgroundImage: "url('assets/images/pg2.jpg')" }}
               >
                 <div className="overlay"></div>
                 <div className="text text-center p-4">
-                  <h3>
-                    <a href="/">Branding &amp; Illustration Design</a>
-                  </h3>
-                  <span>Web Design</span>
+                 
                 </div>
               </div>
             </div>
             <div className="col-md-3">
               <div
-                className="project img shadow ftco-animate d-flex justify-content-center align-items-center"
+                className=" w-100 project img shadow ftco-animate d-flex justify-content-center align-items-center"
                 style={{ backgroundImage: "url('assets/images/pg4.jpg')" }}
               >
                 <div className="overlay"></div>
                 <div className="text text-center p-4">
-                  <h3>
-                    <a href="/">Branding &amp; Illustration Design</a>
-                  </h3>
-                  <span>Web Design</span>
+                 
                 </div>
               </div>
             </div>
             <div className="col-md-3">
               <div
-                className="project img shadow ftco-animate d-flex justify-content-center align-items-center"
+                className="w-100 project img shadow ftco-animate d-flex justify-content-center align-items-center"
                 style={{ backgroundImage: "url('assets/images/pg3.jpg')" }}
               >
                 <div className="overlay"></div>
                 <div className="text text-center p-4">
-                  <h3>
-                    <a href="/">Branding &amp; Illustration Design</a>
-                  </h3>
-                  <span>Web Design</span>
+                 
                 </div>
               </div>
             </div>
             <div className="col-md-3">
               <div
-                className="project img shadow ftco-animate d-flex justify-content-center align-items-center"
+                className="w-100 project img shadow ftco-animate d-flex justify-content-center align-items-center"
                 style={{ backgroundImage: "url('assets/images/pg11.jpg')" }}
               >
                 <div className="overlay"></div>
                 <div className="text text-center p-4">
-                  <h3>
-                    <a href="/">Branding &amp; Illustration Design</a>
-                  </h3>
-                  <span>Web Design</span>
+
                 </div>
               </div>
             </div>
             <div className="col-md-3">
               <div
-                className="project img shadow ftco-animate d-flex justify-content-center align-items-center"
+                className="w-100 project img shadow ftco-animate d-flex justify-content-center align-items-center"
                 style={{ backgroundImage: "url('assets/images/pg12.jpg')" }}
               >
                 <div className="overlay"></div>
                 <div className="text text-center p-4">
-                  <h3>
-                    <a href="/">Branding &amp; Illustration Design</a>
-                  </h3>
-                  <span>Web Design</span>
+
                 </div>
               </div>
             </div>
             <div className="col-md-3">
               <div
-                className="project img shadow ftco-animate d-flex justify-content-center align-items-center"
+                className="w-100 project img shadow ftco-animate d-flex justify-content-center align-items-center"
                 style={{ backgroundImage: "url('assets/images/pg8.jpg')" }}
               >
                 <div className="overlay"></div>
                 <div className="text text-center p-4">
-                  <h3>
-                    <a href="/">Branding &amp; Illustration Design</a>
-                  </h3>
-                  <span>Web Design</span>
+                 
                 </div>
               </div>
             </div>
