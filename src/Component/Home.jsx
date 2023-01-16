@@ -106,12 +106,12 @@ export default function Home() {
                 ></div>
               </div>
             </div>
-            <div className="col-md-6 col-lg-7 pl-md-4 pl-lg-5 py-5">
+            <div className="col-md-6 col-lg-7 pl-md-4 pl-lg-5 py-2">
               <div className="py-md-5">
-                <div className="row justify-content-start pb-3">
+                <div className="row justify-content-start pb-1">
                   <div className="col-md-12 heading-section ftco-animate">
                     <span className="subheading">My Intro</span>
-                    <h2 className="mb-4 style">About Me</h2>
+                    <h2 className="mb-2 style">About Me</h2>
                     <p>
                       My Name is Parvez Alam.I am Basicly from Bareilly .I have
                       completed B.tech from Computer science Enginearing from
@@ -179,7 +179,7 @@ export default function Home() {
           <div className="row justify-content-center mb-1 pb-1">
             <div className="col-md-7 heading-section text-center ftco-animate">
               <span className="subheading">Degree</span>
-              <h2 className="mb-4">MY Schooling</h2>
+              <h2 className="mb-2">MY Schooling</h2>
              
             </div>
           </div>
@@ -608,9 +608,9 @@ export default function Home() {
       <section className="ftco-section" id="services-section">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-md-12 heading-section text-center ftco-animate mb-2">
+            <div className="col-md-12 heading-section text-center ftco-animate mb-1">
               <span className="subheading">I am grat at</span>
-              <h2 className="mb-4">We do awesome services for our clients</h2>
+              <h2 className="mb-2">We do awesome services for our clients</h2>
               <p>
                 Society provides all comforts and necessities of life to man.
               </p>
@@ -639,7 +639,7 @@ export default function Home() {
                   <span className="flaticon-app-development"></span>
                 </div>
                 <div className="media-body">
-                  <h3 className="heading mb-3">Web Application</h3>
+                  <h3 className="heading mb-2">Web Application</h3>
                   <p>
                     A Web application (Web app) is an application program that
                     is stored on a remote server and delivered over the Internet
